@@ -542,3 +542,86 @@
 
 # testdict.update({'brand':'oppo' })
 # print(testdict)
+
+# try:
+#       print("my_string"[1/0])
+# except IndexError:
+#       print("index error")
+# except ZeroDivisionError:
+#       print("zero error")
+# except:
+#       print("other error")
+
+# try:
+#       x = y + 1
+# except NameError:
+#       print("y is not defined")
+
+# try:
+#       x = 'seasalt'[7]
+# except IndexError:
+#       print("No character found in that index")
+
+# try:
+#       x = 'y' + 1
+# except ValueError:
+#       print("y is not a number value")
+
+# try:
+#     x = y + 1
+# except NameError:
+#     print("y is not defined")
+#     x = y + 1
+
+# try:
+#     y = 5 / 0
+# except ZeroDivisionError:
+#     print("Can't divide with zero.")
+
+# try:
+#     z = 3 // 0
+# except ZeroDivisionError:
+#     print("Zero won't work!")
+# except ArithmeticError:
+#     print("We have a problem!")
+
+# a = input("Enter a number: ")
+# try:
+#     float(a) / 0
+# except (TypeError, ZeroDivisionError):
+#     print("Please enter valid numbers, besides zero.")
+
+# matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+# matrix2 = []
+
+# for submatrix in matrix:
+#   for val in submatrix:
+#     matrix2.append(val)
+
+# print(matrix2[2])
+
+# def my_function():
+#   x = 20
+#   def my_inner_function():
+#     print(x)
+#   my_inner_function()
+# my_function()
+
+# Num = input("Enter a Number: ") 
+# print (Num * 3 )
+
+# def my_function(arg1, *argv): 
+#     print ("First argument:", arg1) 
+#     for arg in argv: 
+#         print("Next argument:", arg) 
+
+# my_function('Welcome', 'to', 'Python!')
+
+def sum(*args):
+    result = 0
+    for arg in args:
+        result += arg
+    return result 
+
+print(sum(2,3,1))
