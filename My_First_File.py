@@ -244,3 +244,301 @@
 
 # matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
 # print(matrix[0][0][0])
+
+# def my_function(*students):
+#   print("The tallest student is " + students[2])
+
+# my_function("James", "Ella", "Jackson")
+
+# def multi_func():
+#   result = int(input()) * 5
+#   return result     
+
+# print(result)
+
+# a = 0
+# def add_one(a):
+# 	return a+1
+
+# result = add_one(a)
+# print(result)
+
+# def print_info(name, age=18):
+#     print(name, age)
+
+# print_info('john', 19)
+
+# Function :  def add_func(num1,num2):
+#                    	return num1 + num2
+ 
+# Sample input: print ( add_func(5 , num1= 10) )
+
+# Function :  def add_func(num1,num2):
+#             	  	return num1 + num2 	
+# print( add_func(5 , 5) )
+
+# def my_function(*friends):
+#   print("The tallest student is " + friends[0])
+
+# my_function("john", "Ella", "mark")
+
+# nums= [7,4,1]
+# def change_third_item(list):
+# 	list[2] = 5
+
+# change_third_item(nums)
+# print(nums)
+
+# a = 0
+# def add_three(a):
+# 	return a+3
+
+# result = add_three(a)
+# print(result)
+
+# a = 0
+# def add_three(a):
+# 	return a+3
+
+# result = add_three(3)
+# print(result)
+
+# def print_name_age(name, age=19):
+#     print(name, age)
+
+# print_name_age('john', 18)
+
+# def fullname_func(fname):
+#   print(fname + " Mark")
+
+# fullname_func("John")
+
+# def fullname_func(fname, lname):
+#   print(fname + " " + lname)
+
+# fullname_func("John", "Mark")
+
+# def my_function(x):
+#   return 5 + x
+
+# print(my_function(3))
+
+
+# def my_function(x):
+#   return 10 - x
+
+# print(my_function(4))
+
+# def my_function(x):
+#   return 10 / x
+
+# print(my_function(2))
+
+# def square(i):
+#     j = i * i
+#     return j
+
+# print(square(3))
+
+# def square(i):
+#     j = i * i
+#     return j
+
+# num = 2
+# result = square(num)
+# print("The result of ", num, " is ", result)
+
+# def add(x, y):
+#   return x+y
+
+# def return_greeting():
+#   return "Hello, World"
+
+# print(return_greeting())
+
+# def is_true(a): 
+#   return bool(a) 
+
+# result = is_true(3<6) 
+# print("The result is", result)
+
+# def is_true(a): 
+#   return bool(a) 
+
+# result = is_true(6<3) 
+# print("The result is", result)
+
+# def get_odd_func(numbers):
+#     odd_numbers = [num for num in numbers if num % 2]
+#     return odd_numbers
+
+# print(get_odd_func([1, 2, 3, 4, 5, 6]))
+
+# def mean_func(list1):
+#     return sum(list1) / len(list1)
+
+# print(mean_func([5, 2, 2, 4]))
+
+# def mean_func(list1):
+#     return sum(list1) / len(list1)
+
+# print(mean_func([5, 6, 7, 8]))
+
+# def my_function(names):
+#   for i in names:
+#     print(i, end=' ')
+
+# names = ["john", "mark", "emmy"]
+# my_function(names)
+
+# def my_function(numbers):
+#   for i in numbers:
+#     print(i+1, end=' ')
+
+# numbers = [1, 2, 3] 
+# my_function(numbers)
+
+# def my_function(numbers):
+#   for i in numbers:
+#     print(i*2+10, end=' ')
+
+# numbers = [1, 2, 3]
+# my_function(numbers)
+
+# def double_list(numbers):
+#   return 2 * numbers
+
+# numbers = [1, 2, 3]
+# print(double_list(numbers))
+
+# def myfunc():
+#   a = 20
+#   print(a)
+
+# myfunc()
+
+# def my_function():
+#   x = 20
+#   def my_inner_function():
+#     print(x)
+#   my_inner_function()
+# my_function()
+
+# def my_function():
+#   def my_inner_function():
+#     x = 20
+#     print(x)
+#   my_inner_function()
+
+# my_function()
+
+# def my_function():
+#   def my_inner_function():
+#     x = 20
+#   print(x)
+#   my_inner_function()
+
+# my_function()
+
+# x = 20
+# def my_function():
+#   print(x, end=' ')
+
+# my_function()
+# print(x, end=' ')
+
+# x = 20
+# def my_function():
+#   x = 30
+#   print(x, end=' ')
+
+# my_function()
+# print(x, end=' ')
+
+# x = 20
+# def my_function():
+#   x = 30
+#   print(x, end=' ')
+
+# my_function()
+# print(x, end=' ')
+
+# def my_function():
+#   global x
+#   x = 30
+
+# my_function()
+# print(x)
+
+# x = 30
+# def my_function():
+#   global x
+#   x = 20
+
+# my_function()
+# print(x)
+
+# def my_function(*ages):
+#   print("The older friend is " + ages[0] + " years")
+
+# my_function("13", "12", "11")
+
+# def my_function(*argv):  
+#     for arg in argv:  
+#         print(arg) 
+
+# my_function('Hello', 'World!')
+
+# def my_function(arg1, *argv): 
+#     print ("First argument:", arg1) 
+#     for arg in argv: 
+#         print("Next argument:", arg) 
+
+# my_function('Welcome', 'to', 'Python!')
+
+# def sum(a,b):
+#     return a+b
+
+# print(sum(2,3))
+
+# def division(a,b):
+#     return a/b
+
+# division(8,2)
+
+# def my_function(*argv):
+#   print(argv)
+
+# my_function('Hello', 'World!')
+
+# def my_function(*argv):
+#   print(argv[0])
+
+# my_function('Hello', 'World!')
+
+# def sum(*args):
+#     for arg in args:
+#         result += arg
+#     return result 
+
+# print(sum(2,3,1))
+
+# tuple1 = (1,2,3,4,5)
+# print(tuple1.append(6))
+
+# x = tuple(3)
+# print(x)
+
+# a = (10, [20, 30], 40, 50)
+# a = a[1][1]
+# print(a)
+
+# testdict = {
+#   "brand": "Samsung",
+#   "ram": "3",
+#   "Os": "Android",
+#   "year": 2020
+# }
+
+# testdict.update({'brand':'oppo' })
+# print(testdict)
